@@ -1,4 +1,6 @@
-.whole{display: flex;
+
+.whole{
+    display: flex;
     background-color: #f8a304f5;
     height: 80px;
 }
@@ -30,7 +32,7 @@
     margin-left: 120px;
 }
 .two{
-    background-color: #D6D1D1;
+    background-color: whitesmoke;
     display: flex;
 }
 .two .img img{    
@@ -52,23 +54,108 @@
     margin-left: 130px;
 }
 .three{
+    margin: auto;
+    padding: 20px;
     background-color: white;
     display: flex;
 }
-.three .img img{
-    height: 50px;
-    width: 100px;
-    padding: 10px;
+/* */
+.search form{
+    margin-left: 200px;
+    border-radius: 20px;
 }
-.search .look{
-    margin-left: 60px;
-    padding: 10px;
-    border-radius: 10px;
-    padding-top: 10px;
+.search span input .btn{
+    width: 500px;
+}
+
+.search span input{
+    width: 300px;
+    height: 30px;
 }
 .login{
-    margin-left: 450px;
+    /* margin-left: 450px; */
     padding-top: 10px;
     font-size: large;
 }
+.fourth{
+    display: flex;
+    padding-right: 70px;
+    background-color: whitesmoke;
+}
+.in{
+    padding-left: 50px;
+}
+.in{
+    padding-bottom: 100px;
+    padding-right: 30px;
+}
+.baby{
+    padding-left: 500px;
+    background-color: whitesmoke;
+    font-weight: light;
+    border-radius: 10px;
+        
+}
+.ll{
+    background-color: peachpuff;
+    padding-top: 5px;
+    border-radius: 10px;
+    height: 30px;
+}
+.ll .name{
+    position: relative;
+    bottom: 20px;
+    padding-left: 20px;
+}
+.products{
+    display: flex;
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 50px;
+    margin-left: 180px;
+}
+.products li{
+    margin: 5px;
+    list-style: none;
+}
+
+.ll .products{
+    background-color: whitesmoke;
+    border-radius: 40px;
+}
+.name1{
+    padding-left: 500px;
+    background-color: rgb(78, 105, 131);
+    font-weight: light;
+    border-radius: 10px; 
+}
+.products2{
+    display: flex;
+    background-color: white;
+    margin-left: 180px;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+.super{
+    background-color: white;
+    padding-left: 550px;
+    font-weight: light;
+    border-radius: 10px;
+}
+.market{
+    background-color: rgb(110, 51, 71);
+    padding-left: 500px;
+    border-radius: 10px;
+}
+.products3{
+    display: flex;
+    background-color: white;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+    
+
+
 
